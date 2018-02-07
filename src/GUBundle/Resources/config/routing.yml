@@ -1,0 +1,9 @@
+gu_homepage:
+    path:     /
+    defaults: { _controller: GUBundle:Default:index }
+gu_inscri:
+    path:     /inscri
+    defaults: { _controller: GUBundle:Default:register }
+gu_register_choice:
+    path:     /inscriChoice
+    defaults: { _controller: GUBundle:Default:registerChoice }

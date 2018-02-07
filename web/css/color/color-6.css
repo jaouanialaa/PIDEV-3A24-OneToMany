@@ -1,0 +1,78 @@
+/*
+
+Template:  Beautyhouse
+Author: http://bootexperts.com/
+Version: 1
+Design and Developed by: Hastech
+
+NOTE: This is color stylesheet of Color Scheme.
+
+*/
+
+/*************************
+		General
+*************************/
+
+
+/** selection **/
+
+*::-moz-selection {
+    background: #ff9800;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #ff9800;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #ff9800;
+    color: #fff;
+    text-shadow: none;
+}
+/*-------
+    Background color
+--------*/
+.cart-icon span,.explore-now a,.about-desc > a:hover,.gallery-img a,.section-title h2::before,.feature-desc > a:hover,.pricing-table:hover .book-now > a,.s-article-gallery::before, .blog-img > a::before,.single-footer.quick-links li:hover::before,.choose-icon i:hover,.pagination-inner li.active,.pagination-inner li:hover,#contact-form > button,.contact-icon > a:hover,.style-customizer .buy-now a.button.button-border, .style-customizer a.button.button-border,div.style-customizer ul.layoutstyle li,.widget-search button,.widget-title > h3,.widget-newsletter button,.submit > button,.ui-slider-range.ui-widget-header.ui-corner-all,ul.product-action li a.add-to-cart,ul.product-action li i:hover,a.continue-shopping:hover, .discount-code > input[type="submit"]:hover, .total.text-right > input[type="submit"]:hover,.btn-continue, .registered-user input[type="submit"], .inner-step input[type="submit"], .registered-user input[type="submit"],.billing-button button, .block-area-button button,.add-cart > a,.error-content .go-home{
+  background: #ff9800;
+}
+/*-------
+    Background-color
+--------*/
+.mini-cart-checkout a,#scrollUp,.review-form .submit-box input {
+  background-color: #ff9800 ;
+}
+/*-------
+    color & hover color
+--------*/
+.menu ul li:hover a, .menu ul li:hover ul li a:hover,.mini-cart-product .content .title:hover,.explore-now a:hover,.about-desc > a,.gallery-tab-menu ul li.active a, .gallery-tab-menu.isotope-menu ul li.active,.feature-desc > p,.video-icon > a:hover,.section-title h2::after,.pricing-title > h3::before,.pricing-table:hover .pricing-desc > h2,.single-testimonial > h3,.single-testimonial > p i,.blog-action-box li a:hover,.single-footer.quick-links li:hover a,.single-footer.open-hours li span.close,.search-form button,.breadcrumbs-menu li,.breadcrumbs-menu li a:hover,.team-desc-tablcell h5,.widget-categories h6.open,.widget-video-icon > a:hover,.widget-tag li a:hover,.shop-tab ul li a:hover, .shop-tab ul li.active a,.single-product-hover h4 a,ul.product-action li i,.single-product-info h5 span,.article-text blockquote p i,td.product_des h3 a:hover,.p_action > a,.checkout-right ul li a:hover,.billing-button > a,.review-author .review-star i,.review-form .star-box .star i,.slider-content .title-1 h1 span,.error-content h2{
+  color: #ff9800
+}
+
+/*-------
+    Rgba color
+--------*/
+.nivo-controlNav a,.owl_pagination.owl-theme .owl-controls .owl-page span,.home-slider-list.owl-carousel .owl-controls .owl-page span {
+  background-color: rgba(255, 152, 0, 0.6);
+}
+.single-footer.widget li a::before,.widget-filcker li a::before {
+  background-color: rgba(255, 152, 0, 0.7);
+}
+
+
+/*-------
+    Border color
+--------*/
+.menu ul li ul.dropdown_menu,.nivo-controlNav a:hover, .nivo-controlNav a.active,.explore-now a:hover,.about-desc > a,.owl_pagination.owl-theme .owl-controls .owl-page.active span,.feature-img img,.feature-desc > a:hover,.video-icon > a:hover,.pricing-title > h3,.pricing-table:hover .book-now > a,.search-form input,.choose-icon i:hover,.pagination-inner li:hover,.pagination-inner li.active,.contact-icon > a:hover,div.style-customizer ul.layoutstyle li,.widget-video-icon > a:hover,.price-filter .ui-slider-handle.ui-state-default.ui-corner-all,.shop-tab ul li a:hover, .shop-tab ul li.active a,.product-thumb ul li a,.home-slider-list.owl-carousel .owl-controls .owl-page.active span{
+    border-color: #ff9800
+}
+
+/** Color **/
+
+a:hover, a,  .separator i, button{
+    color: #ff9800;
+}
+

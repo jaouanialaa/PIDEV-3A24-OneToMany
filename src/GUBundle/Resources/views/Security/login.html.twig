@@ -1,0 +1,105 @@
+{% trans_default_domain 'FOSUserBundle' %}
+{% extends '::base.html.twig' %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/animate/animate.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/css-hamburgers/hamburgers.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/animsition/css/animsition.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/select2/select2.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/daterangepicker/daterangepicker.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/util.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}">
+    <style>
+        .login100-form-title,.login100-form-btn{
+            background-color: #6bc513;
+        }
+    </style>
+{% endblock css %}
+{% block contenu %}
+
+{% block fos_user_content %}
+
+    {% for type, messages in app.session.flashBag.all %}
+        {% for message in messages %}
+            <div class="{{ type }}">
+                {{ message|trans({}, 'FOSUserBundle') }}
+            </div>
+        {% endfor %}
+    {% endfor %}
+    {% if error %}
+        <div>{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+    {% endif %}
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100">
+                <form action="{{ path('fos_user_security_check') }}" method="post" class="login100-form validate-form p-l-55 p-r-55 p-t-178">
+                    <input type="hidden" name="_csrf_token" value="{{ csrf_token }}" />
+                    <span class="login100-form-title">
+						Sign In
+					</span>
+                    <label type="hidden" for="username">{{ 'security.login.username'|trans }}</label>
+                    <div class="wrap-input100 validate-input m-b-16" data-validate="Please enter username">
+                        <input class="input100" type="text" id="username" name="_username" value="{{ last_username }}" required="required">
+                        <span class="focus-input100"></span>
+                    </div>
+                    <label type="hidden" for="password">{{ 'security.login.password'|trans }}</label>
+                    <div class="wrap-input100 validate-input" data-validate = "Please enter password">
+                        <input class="input100" type="password" id="password" name="_password" required="required">
+                        <span class="focus-input100"></span>
+                    </div>
+                    <input type="checkbox" id="remember_me" name="_remember_me" value="on" />
+                    <label for="remember_me">{{ 'security.login.remember_me'|trans }}</label>
+                    <div class="text-right p-t-13 p-b-23">
+						<span class="txt1">
+							Forgot
+						</span>
+
+                        <a href="#" class="txt2">
+                            Username / Password?
+                        </a>
+                    </div>
+
+                    <div  style="color: #6bc513" class="container-login100-form-btn">
+                        <button  class="login100-form-btn" type="submit"  id="_submit" name="_submit" value="{{ 'security.login.submit'|trans }}"> Login </button>
+                    </div>
+                    <div class="login-help">
+                        <a href="{{ path('fos_user_registration_register') }}">Register</a> - <a href="{{ path('fos_user_resetting_request') }}">Forgot Password</a>
+                    </div>
+                    <div class="flex-col-c p-t-170 p-b-40">
+						<span class="txt1 p-b-9">
+							Don’t have an account?
+						</span>
+
+                        <a href="{{ path('gu_register_choice') }}" class="txt3">
+                            Sign up now
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock fos_user_content %}
+{% endblock contenu %}
+
+{% block js %}
+<!--===============================================================================================-->
+<script src="{{ asset('vendor/jquery/jquery-3.2.1.min.js') }}"></script>
+<!--===============================================================================================-->
+<script src="{{ asset('vendor/animsition/js/animsition.min.js') }}"></script>
+<!--===============================================================================================-->
+<script src="{{ asset('vendor/bootstrap/js/popper.js') }}"></script>
+<script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+<!--===============================================================================================-->
+<script src="{{ asset('vendor/select2/select2.min.js') }}"></script>
+<!--===============================================================================================-->
+<script src="{{ asset('vendor/daterangepicker/moment.min.js') }}"></script>
+<script src="{{ asset('vendor/daterangepicker/daterangepicker.js') }}"></script>
+<!--===============================================================================================-->
+<script src="{{ asset('vendor/countdowntime/countdowntime.js') }}"></script>
+<!--===============================================================================================-->
+<script src="{{ asset('js/main.js') }}"></script>
+{% endblock js %}

@@ -1,0 +1,44 @@
+/*
+
+Template:  Resta resturant tempalte
+Author: http://bootexperts.com/
+Version: 1
+Design and Developed by: Hastech
+
+NOTE: This is color stylesheet of Color Scheme.
+
+*/
+
+/*************************
+		General
+*************************/
+
+
+/** selection **/
+
+*::-moz-selection {
+    background: #6bc513;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #6bc513;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #6bc513;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+
+
+/** Color **/
+
+a:hover, a,  .separator i, button{
+    color: #6bc513;
+}
