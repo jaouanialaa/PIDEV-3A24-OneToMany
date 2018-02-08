@@ -1,0 +1,3 @@
+suivi_homepage:
+    path:     /
+    defaults: { _controller: SuiviBundle:Default:index }

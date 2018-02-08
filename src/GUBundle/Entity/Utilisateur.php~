@@ -89,21 +89,18 @@ class Utilisateur extends BaseUser
     /**
      * Set nom
      *
-     * @param string $nom
-     *
-     * @return Utilisateur
+     * @param mixed $nom
      */
     public function setNom($nom)
     {
         $this->nom = $nom;
 
-        return $this;
     }
 
     /**
      * Get nom
      *
-     * @return string
+     * @return mixed
      */
     public function getNom()
     {
@@ -206,4 +203,3 @@ class Utilisateur extends BaseUser
         return $this->codePostal;
     }
 }
-?>

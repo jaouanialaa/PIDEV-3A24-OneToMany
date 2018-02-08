@@ -1,0 +1,3 @@
+etablissement_homepage:
+    path:     /
+    defaults: { _controller: EtablissementBundle:Default:index }

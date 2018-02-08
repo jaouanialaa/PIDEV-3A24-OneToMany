@@ -17,6 +17,19 @@ class RegistrationType extends AbstractType
         $builder->add('telephone');
         $builder->add('address');
         $builder->add('codePostal');
+            $builder->add('nom')->add('prenom')
+                ->add('roles', ChoiceType::class, array(
+                        'label' => 'Type',
+                        'choices' => array(
+                            'ADMIN' => 'ROLE_ADMIN',
+                            'CLIENT' => 'ROLE_CLIENT',
+                            'ETABLISSEMENT' => 'ROLE_ETAB',
+                            'VENDOR' => 'ROLE_VENDOR',
+                            'NUTRITIONNIST' => 'ROLE_NUTRI'),
+                        'required' => true,
+                        'multiple' => true,)
+                );
+
 
     }
 

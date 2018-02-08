@@ -1,0 +1,66 @@
+{% extends '::base.html.twig' %}
+{% trans_default_domain 'FOSUserBundle' %}
+{% block css %}<style>
+    #contact-form > input {
+        background: #6bc513 none repeat scroll 0 0;
+        border: medium none;
+        color: #fff;
+        font-family: "Lato",sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        height: 45px;
+        margin-top: 40px;
+        text-transform: uppercase;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        width: 100%;
+    }
+    #contact-form > button:hover {
+        background: #555 none repeat scroll 0 0;
+    }
+</style>
+{% endblock css %}
+{% block contenu %}
+    {% block fos_user_content %}
+        {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
+        <div class="contact-form ptb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-title text-center">
+                            <h2>Get in touch</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim nostrud exercitation ullamco laboris nisi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="contact-form">
+                            <p class="form-messege"></p>
+                            {{ form_widget(form) }}
+                            <input type="submit" value="{{ 'registration.submit'|trans }} " >
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <p class="form-messege"></p>
+                    <input type="submit" value="{{ 'registration.submit'|trans }} " >
+                </div>
+
+            </div>
+        </div>
+
+        {{ form_end(form) }}
+    {% endblock fos_user_content %}
+{% endblock %}
+{% block js %}
+    <script src="{{ asset('js/vendor/jquery-1.12.0.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.nivo.slider.pack.js') }}"></script>
+    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('js/ajax-mail.js') }}"></script>
+    <script src="{{ asset('js/jquery.magnific-popup.js') }}"></script>
+    <script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('js/plugins.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
+{% endblock js %}

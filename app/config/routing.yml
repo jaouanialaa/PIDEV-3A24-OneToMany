@@ -1,3 +1,23 @@
+suivi:
+    resource: "@SuiviBundle/Resources/config/routing.yml"
+    prefix:   /
+
+etablissement:
+    resource: "@EtablissementBundle/Resources/config/routing.yml"
+    prefix:   /
+
+article:
+    resource: "@ArticleBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ecommerce:
+    resource: "@EcommerceBundle/Resources/config/routing.yml"
+    prefix:   /
+
+forum:
+    resource: "@ForumBundle/Resources/config/routing.yml"
+    prefix:   /
+
 gu:
     resource: "@GUBundle/Resources/config/routing.yml"
     prefix:   /

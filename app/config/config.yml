@@ -3,6 +3,11 @@ imports:
     - { resource: security.yml }
     - { resource: services.yml }
     - { resource: "@GUBundle/Resources/config/services.yml" }
+    - { resource: "@ForumBundle/Resources/config/services.yml" }
+    - { resource: "@EcommerceBundle/Resources/config/services.yml" }
+    - { resource: "@ArticleBundle/Resources/config/services.yml" }
+    - { resource: "@EtablissementBundle/Resources/config/services.yml" }
+    - { resource: "@SuiviBundle/Resources/config/services.yml" }
 
 # Put parameters here that don't need to change on each machine where the app is deployed
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration

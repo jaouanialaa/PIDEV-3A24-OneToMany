@@ -69,7 +69,7 @@ class DefaultController extends RegistrationController
             }
         }
 
-        return $this->render('GUBundle:Default:index.html.twig', array(
+        return $this->render('GUBundle:Registration:register_content.html.twig', array(
             'form' => $form->createView(),
         ));
     }

@@ -1,0 +1,4 @@
+services:
+#    article.example:
+#        class: ArticleBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
