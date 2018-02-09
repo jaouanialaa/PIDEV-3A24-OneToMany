@@ -3,6 +3,8 @@
 namespace ArticleBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use ArticleBundle\Entity\Categorie;
+
 
 /**
  * Article
@@ -34,24 +36,31 @@ class Article
      * @ORM\Column(name="contenu", type="text")
      */
     private $contenu;
+    
 
     /**
-     * @var string
-     *
-     * @ORM\Column(name="image", type="string", length=255)
-     */
-    private $image;
-
-    /**
-     * @var \DateTime
+     * @var \Date
      *
      * @ORM\Column(name="date", type="date")
      */
     private $date;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Categorie")
-     * @ORM\JoinColumn(name="category_id", referencedColumnName="id")
+     * @var \DateTime
+     *
+     * @ORM\Column(name="temps", type="time")
+     */
+    private $temps;
+
+
+    /**
+     * plusieurs articles ont plusieur catégories
+     * @ORM\ManyToMany(targetEntity="Categorie")
+     * @ORM\JoinTable(name="article_categorie",
+     *     joinColumns={@ORM\JoinColumn(name="article_id", referencedColumnName="id")},
+     *      inverseJoinColumns={@ORM\JoinColumn(name="categorie_id", referencedColumnName="id")}
+     *      )
+     *
      */
     private $categorie;
 
@@ -141,7 +150,7 @@ class Article
     /**
      * Set date
      *
-     * @param \DateTime $date
+     * @param \Date $date
      *
      * @return Article
      */
@@ -155,7 +164,7 @@ class Article
     /**
      * Get date
      *
-     * @return \DateTime
+     * @return \Date
      */
     public function getDate()
     {
@@ -184,5 +193,64 @@ class Article
     public function getCategorie()
     {
         return $this->categorie;
+    }
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->categorie = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->date = new \DateTime();
+        $this->temps=new \DateTime();
+    }
+
+    /**
+     * Add categorie.
+     *
+     * @param \ArticleBundle\Entity\Categorie $categorie
+     *
+     * @return Article
+     */
+    public function addCategorie(\ArticleBundle\Entity\Categorie $categorie)
+    {
+        $this->categorie[] = $categorie;
+
+        return $this;
+    }
+
+    /**
+     * Remove categorie.
+     *
+     * @param \ArticleBundle\Entity\Categorie $categorie
+     *
+     * @return boolean TRUE if this collection contained the specified element, FALSE otherwise.
+     */
+    public function removeCategorie(\ArticleBundle\Entity\Categorie $categorie)
+    {
+        return $this->categorie->removeElement($categorie);
+    }
+
+    /**
+     * Set temps.
+     *
+     * @param \DateTime $temps
+     *
+     * @return Article
+     */
+    public function setTemps($temps)
+    {
+        $this->temps = $temps;
+
+        return $this;
+    }
+
+    /**
+     * Get temps.
+     *
+     * @return \DateTime
+     */
+    public function getTemps()
+    {
+        return $this->temps;
     }
 }

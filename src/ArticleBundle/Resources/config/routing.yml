@@ -1,3 +1,19 @@
 article_homepage:
     path:     /
     defaults: { _controller: ArticleBundle:Default:index }
+
+_ajouter_article:
+    path:     /Ajouter
+    defaults: { _controller: ArticleBundle:Article:AjouterArticle }
+
+_modifier_article:
+    path:     /Modifier
+    defaults: { _controller: ArticleBundle:Article:ModifierArticle }
+
+_supprimer_article:
+    path:     /Supprimer/{id}
+    defaults: { _controller: ArticleBundle:Article:SupprimerArticle }
+
+_afficher_articles:
+    path:     /Afficher
+    defaults: { _controller: ArticleBundle:Article:AfficherArticles }

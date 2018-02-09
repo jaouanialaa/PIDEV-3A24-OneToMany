@@ -88,3 +88,4 @@ kms_froala_editor:
   language: "fr"
   imageUploadFolder: "/article/images"
   fileUploadFolder: "/article/fichiers"
+  #includeJQuery: false

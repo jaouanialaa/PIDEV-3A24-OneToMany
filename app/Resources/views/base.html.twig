@@ -411,8 +411,7 @@
 
     </div>
 </div>
-{% block js %}
-{% endblock %}
+
 
 <!-- Placed js at the end of the document so the pages load faster -->
 
@@ -424,12 +423,12 @@
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('js/jquery.nivo.slider.pack.js') }}"></script>
 <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
-<script src="{{ asset('js/ajax-mail.js') }}"></script>
 <script src="{{ asset('js/jquery.magnific-popup.js') }}"></script>
 <script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
 <script src="{{ asset('js/plugins.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
-
+{% block js %}
+{% endblock js %}
 </body>
 
 </html>

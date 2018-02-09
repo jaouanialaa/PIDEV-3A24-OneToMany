@@ -1,0 +1,14 @@
+
+<link rel="stylesheet" href="{{ asset('js/select2-master/dist/css/select2.min.css') }}">
+
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    {{ form_end(form) }}
+
+    <script src="{{ asset('js/select2-master/dist/js/select2.min.js') }}"></script>
+    <script >
+        $(document).ready(function() {
+            $('.js-example-basic-multiple').select2();
+        });
+    </script>
+

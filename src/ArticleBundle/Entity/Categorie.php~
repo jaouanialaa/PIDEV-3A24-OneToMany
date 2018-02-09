@@ -23,18 +23,24 @@ class Categorie
 
     /**
      * @var string
-     *
+     * @ORM\ManyToOne(targetEntity="ArticleBundle\Entity\Categorie")
      * @ORM\Column(name="nom", type="string", length=255, unique=true)
      */
     private $nom;
 
     /**
      * @var int
-     * @ORM\OneToMany(targetEntity="Categorie")
      *
-     * @ORM\Column(name="parent", type="integer")
+     * @ORM\Column(name="parent", type="integer",nullable=true)
+     * @ORM\ManyToOne(targetEntity="Category", inversedBy="nom")
+     * @ORM\JoinColumn(name="parent_id", referencedColumnName="id")
      */
     private $parent;
+
+    public function __toString()
+    {
+        return $this->getNom();
+    }
 
 
     /**
