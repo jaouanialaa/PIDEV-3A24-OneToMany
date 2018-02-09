@@ -21,6 +21,9 @@ forum:
 gu:
     resource: "@GUBundle/Resources/config/routing.yml"
     prefix:   /
+kms_froala_editor:
+  resource: "@KMSFroalaEditorBundle/Resources/config/routing.yml"
+  prefix:   /article
 
 app:
     resource: '@AppBundle/Controller/'
