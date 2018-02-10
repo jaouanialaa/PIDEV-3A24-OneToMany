@@ -54,7 +54,7 @@ class Article
 
 
     /**
-     * plusieurs articles ont plusieur catégories
+     *
      * @ORM\ManyToMany(targetEntity="Categorie")
      * @ORM\JoinTable(name="article_categorie",
      *     joinColumns={@ORM\JoinColumn(name="article_id", referencedColumnName="id")},

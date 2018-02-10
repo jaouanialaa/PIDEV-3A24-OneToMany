@@ -3,12 +3,233 @@
   <component name="ChangeListManager">
     <list default="true" id="0b36cdd3-231f-4ab0-841e-e8e52742d161" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
       <change beforePath="$PROJECT_DIR$/src/ArticleBundle/Entity/Article.php" afterPath="$PROJECT_DIR$/src/ArticleBundle/Entity/Article.php" />
-      <change beforePath="$PROJECT_DIR$/src/ArticleBundle/Entity/Categorie.php" afterPath="$PROJECT_DIR$/src/ArticleBundle/Entity/Categorie.php" />
-      <change beforePath="$PROJECT_DIR$/src/ArticleBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/ArticleBundle/Resources/config/routing.yml" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/Gruntfile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/component.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/css/select2.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/af.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/az.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/bg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/bs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/cs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/da.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/de.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/dsb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/el.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/es.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/et.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/eu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/fa.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/fi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/gl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/he.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/hi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/hr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/hsb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/hu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/hy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/id.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/is.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/it.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/ja.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/km.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/ko.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/lt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/lv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/mk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/ms.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/nb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/nl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/pl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/ps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/pt-BR.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/pt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/ro.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/ru.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/sk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/sl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/sr-Cyrl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/sr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/sv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/th.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/tr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/uk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/vi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/zh-CN.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/i18n/zh-TW.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/select2.full.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/dist/js/select2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/docs/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/docs/announcements-4.0.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/docs/community.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/docs/examples.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/docs/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/docs/options-old.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/docs/options.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/select2.jquery.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/banner.end.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/banner.start.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/jquery.mousewheel.shim.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/jquery.select2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/jquery.shim.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/compat/containerCss.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/compat/dropdownCss.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/compat/initSelection.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/compat/inputData.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/compat/matcher.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/compat/query.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/compat/utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/core.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/ajax.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/array.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/base.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/maximumInputLength.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/maximumSelectionLength.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/minimumInputLength.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/select.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/tags.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/data/tokenizer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/defaults.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/diacritics.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/attachBody.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/attachContainer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/closeOnSelect.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/hidePlaceholder.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/infiniteScroll.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/minimumResultsForSearch.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/search.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/selectOnClose.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/dropdown/stopPropagation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/af.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/ar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/az.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/bg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/bs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/cs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/da.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/de.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/dsb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/el.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/en.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/es.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/et.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/eu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/fa.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/fi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/fr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/gl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/he.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/hi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/hr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/hsb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/hu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/hy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/id.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/is.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/it.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/ja.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/km.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/ko.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/lt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/lv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/mk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/ms.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/nb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/nl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/pl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/ps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/pt-BR.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/pt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/ro.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/ru.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/sk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/sl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/sr-Cyrl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/sr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/sv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/th.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/tr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/uk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/vi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/zh-CN.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/i18n/zh-TW.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/keys.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/options.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/results.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/allowClear.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/base.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/clickMask.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/eventRelay.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/multiple.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/placeholder.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/search.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/single.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/selection/stopPropagation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/translation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/select2/utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/wrapper.end.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/js/wrapper.start.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/_dropdown.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/_multiple.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/_single.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/core.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/mixins/_gradients.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/theme/classic/_defaults.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/theme/classic/_multiple.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/theme/classic/_single.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/theme/classic/layout.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/theme/default/_multiple.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/theme/default/_single.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/src/scss/theme/default/layout.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/a11y/search-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/a11y/selection-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/array-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/base-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/inputData-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/maximumInputLength-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/maximumSelectionLength-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/minimumInputLength-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/select-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/tags-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/data/tokenizer-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/dropdown/dropdownCss-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/dropdown/positioning-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/dropdown/selectOnClose-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/dropdown/stopPropagation-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/helpers.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/integration.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/integration/dom-changes.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/integration/jquery-calls.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/integration/select2-methods.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/options/ajax-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/options/data-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/options/deprecated-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/options/translation-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/options/width-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/results/focusing-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/selection/allowClear-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/selection/containerCss-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/selection/multiple-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/selection/placeholder-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/selection/search-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/selection/single-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/selection/stopPropagation-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/unit.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/utils/decorator-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/utils/escapeMarkup-tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/vendor/jquery-1.7.2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/vendor/qunit-1.23.1.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/tests/vendor/qunit-1.23.1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/js/select2-master/vendor/jquery-2.1.0.js" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,11 +291,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Article.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Entity/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="58" column="45" lean-forward="false" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+            <state relative-caret-position="292">
+              <caret line="56" column="6" lean-forward="false" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
               <folding>
                 <element signature="e#40#72#0#PHP" expanded="true" />
               </folding>
@@ -95,17 +316,17 @@
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
+            <state relative-caret-position="7632">
               <caret line="424" column="61" lean-forward="false" selection-start-line="424" selection-start-column="61" selection-end-line="424" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Controller/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="18">
               <caret line="43" column="53" lean-forward="false" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
               <folding />
             </state>
@@ -115,7 +336,7 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
+            <state relative-caret-position="1620">
               <caret line="90" column="3" lean-forward="false" selection-start-line="90" selection-start-column="3" selection-end-line="90" selection-end-column="3" />
               <folding />
             </state>
@@ -214,8 +435,8 @@
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/ArticleBundle/Resources/views/Article/ajouter_article.html.twig" />
-        <option value="$PROJECT_DIR$/src/ArticleBundle/Entity/Article.php" />
         <option value="$PROJECT_DIR$/src/ArticleBundle/Controller/ArticleController.php" />
+        <option value="$PROJECT_DIR$/src/ArticleBundle/Entity/Article.php" />
       </list>
     </option>
   </component>
@@ -294,8 +515,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -380,6 +599,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -448,18 +669,19 @@
       <workItem from="1518193202754" duration="3025000" />
       <workItem from="1518199692029" duration="307000" />
       <workItem from="1518217961688" duration="6000" />
-      <workItem from="1518218090353" duration="2297000" />
+      <workItem from="1518218090353" duration="2316000" />
+      <workItem from="1518221490966" duration="25000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68379000" />
+    <option name="totallyTimeSpent" value="68423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3168693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32218844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761312" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -848,7 +1070,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
+        <state relative-caret-position="1620">
           <caret line="90" column="3" lean-forward="false" selection-start-line="90" selection-start-column="3" selection-end-line="90" selection-end-column="3" />
           <folding />
         </state>
@@ -856,7 +1078,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="7632">
           <caret line="424" column="61" lean-forward="false" selection-start-line="424" selection-start-column="61" selection-end-line="424" selection-end-column="61" />
           <folding />
         </state>
@@ -870,21 +1092,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Entity/Article.php">
+    <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Controller/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="58" column="45" lean-forward="false" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
-          <folding>
-            <element signature="e#40#72#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="18">
+          <caret line="43" column="53" lean-forward="false" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Controller/ArticleController.php">
+    <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Entity/Article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="43" column="53" lean-forward="false" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="292">
+          <caret line="56" column="6" lean-forward="false" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+          <folding>
+            <element signature="e#40#72#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
